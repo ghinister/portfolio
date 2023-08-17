@@ -1,9 +1,328 @@
-<html> 
-  <head>
-    <title>Hello World</title> 
-  </head>
+<!DOCTYPE html>
+<html lang="en">
 
-  <body> 
-    <h1>Hello World</h1> 
-  </body>
+<head>
+    <!---ข้อมูลพื้นฐานของเว็บไซต์-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Peerawich Dinprapa.">
+    <!--หัวข้อเว็บ-->
+    <title>Peerawich's Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.5/css/foundation.min.css">
+    <script src="https://kit.fontawesome.com/e556468120.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--Top of Portfolio-->
+    <header>
+        <div class="introduction">
+            <div class="profile-mask">
+                <img src="img/profile.jpg" alt="profile-img">
+            </div>
+            <div>
+                <h1> HI! Welcome to my Portfolio. </h1>
+                <h1> My name is Peerawich Dinprapa. </h1>
+                <p> I'm a Game Developer and Programmer from Thailand.
+                    <br>I like to try and improving new skills related to Game Development.
+                    <br>I'm also do some simple game design, 3D Models and 2D Concept art.
+                    <br>You can find more about my skills and works showcase here.
+                </p>
+            </div>
+            <div>
+                <h3>Related Links</h3>
+                <span>
+                    <h3>GITHUB : <a href="https://github.com/ghinister" class="fa fa-github" target="_blank"></a></h3>
+                </span>
+
+            </div>
+        </div>
+        <hr>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="skill-tool">
+                <h1>SKILLS and TOOLS</h1>
+                <div class="row">
+                    <div class="column">
+                        <!--SKILLs-->
+                        <table class="content-tables">
+                            <thead>
+                                <tr>
+                                    <th class="skill-align"> Skill </th>
+                                    <th class="descr-align"> Description </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="skill-align"> C#</td>
+                                    <td class="descr-align"> Advanced </td>
+                                </tr>
+                                <tr>
+                                    <td class="skill-align"> C/C++</td>
+                                    <td class="descr-align"> Intermediate </td>
+                                </tr>
+                                <tr>
+                                    <td class="skill-align"> HTML5/CSS</td>
+                                    <td class="descr-align"> Beginner(Currently Learning) </td>
+                                </tr>
+                                <tr>
+                                    <td class="skill-align"> Python</td>
+                                    <td class="descr-align"> Beginner </td>
+                                </tr>
+                                <tr>
+                                    <td class="skill-align"> JavaScript</td>
+                                    <td class="descr-align"> Beginner </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+
+                            </tfoot>
+                        </table>
+                        <!--SKILLs-->
+                    </div>
+
+                    <div class="column">
+                        <!--TOOLs-->
+                        <table class="content-tables">
+                            <thead>
+                                <tr>
+                                    <th class="skill-align"> Tool </th>
+                                    <th class="descr-align"> Description </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="skill-align"> Unity</td>
+                                    <td class="descr-align"> Advanced </td>
+                                </tr>
+                                <tr>
+                                    <td class="skill-align"> MAYA</td>
+                                    <td class="descr-align"> Intermediate </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+
+                            </tfoot>
+                        </table>
+                        <!--TOOLs-->
+                    </div>
+
+                    <div class="column">
+                        <!--TOOLs-->
+                        <table class="content-tables">
+                            <thead>
+                                <tr>
+                                    <th class="skill-align"> Other </th>
+                                    <th class="descr-align"> Description </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="skill-align"> English</td>
+                                    <td class="descr-align"> Intermediate </td>
+                                </tr>
+                                <tr>
+                                    <td class="skill-align"> Japanese</td>
+                                    <td class="descr-align"> Beginner </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+
+                            </tfoot>
+                        </table>
+                        <!--TOOLs-->
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <hr>
+
+            <div class="project">
+                <div>
+                    <h1>Projects</h1>
+                </div>
+
+                <div class="box_project">
+                    <div class="slidershow">
+                        <div class="prev">
+                            <a onclick="plusSlides(-1,0)">&#10094;</a>
+                        </div>
+
+                        <div class="slides-container">
+                            <div class="slide_dmi">
+                                <img src="img/DMI_01.png" alt="DMI">
+                            </div>
+                            <div class="slide_dmi">
+                                <img src="img/DMI_02.png" alt="DMI">
+                            </div>
+                            <div class="slide_dmi">
+                                <img src="img/DMI_03.png" alt="DMI">
+                            </div>
+                            <div class="slide_dmi">
+                                <img src="img/DMI_04.png" alt="DMI">
+                            </div>
+                            <div class="slide_dmi">
+                                <img src="img/DMI_05.png" alt="DMI">
+                            </div>
+
+                        </div>
+
+                        <div class="next">
+                            <a onclick="plusSlides(1,0)">&#10095;</a>
+                        </div>
+
+
+
+                    </div>
+                    <h1>DMI</h1>
+                    <p>DMI : Department of magic Investigation is a detective, puzzle solving, visual novel game
+                        which player take a role as a younger detective girl who investigate some strange cases that may
+                        related to illegal magics and uncover the mysterious behind the scene.</p>
+                    <p>I'm the main programmer working on Player's Control, In-game object's physics, Puzzle's mechanic
+                        implementation.
+                    </p>
+                </div>
+
+                <div class="box_project">
+                    <div class="slidershow">
+                        <div class="prev">
+                            <a onclick="plusSlides(-1,1)">&#10094;</a>
+                        </div>
+
+                        <div class="slides-container">
+                            <div class="slide_cd">
+                                <img src="img/Cave.delver_01.png" alt="CaveDelver">
+                            </div>
+                            <div class="slide_cd">
+                                <img src="img/Cave.delver_02.png" alt="CaveDelver">
+                            </div>
+                            <div class="slide_cd">
+                                <img src="img/Cave.delver_03.png" alt="CaveDelver">
+                            </div>
+                            <div class="slide_cd">
+                                <img src="img/Cave.delver_04.png" alt="CaveDelver">
+                            </div>
+                        </div>
+
+                        <div class="next">
+                            <a onclick="plusSlides(1,1)">&#10095;</a>
+                        </div>
+                    </div>
+
+                    
+
+                    <h1>Cave Delver</h1>
+                    <p>Cave Delver is a Metroidvania game where the player take a role as an Explorer who delve into the
+                        deep cave to reveal the mysterious of the world.
+                        Gathering resources. Collect the lost artifact and fight the monsters. </p>
+                    <p>I take a part as a Project Manager, Programmer, and Lead Game Designer.
+                        This project was started as I decided to take a part in NSC (National Software Contest) in early
+                        of 2023.
+                        Most of the time I working on the game system such as Player's control, Inventory System,
+                        Enemy's AI using state machine, Research System where player can give material to the researcher
+                        and acquire new blueprint for more tools.
+                        The project didn't make it to the final round but it's still a good experience so far.
+                    </p>
+                </div>
+
+                <div class="box_project">
+                    <img src="img/Sleeplessfrontline_01.png" alt="sleepless-frontline">
+                    <h1>Sleepless Frontline</h1>
+                    <p>Sleepless is a Top-down Shooter where the player have to survive the hordes of the Giant Beetles
+                    </p>
+                    <p>This is the first simple game I designed for the first time in order to study game development.
+                        I'm responsibility for Player's control, combat system, visual effects and particles.
+                    </p>
+                </div>
+
+                <div>
+                </div>
+
+                <hr>
+                <div class="project">
+                    <div>
+                        <h1>Others</h1>
+                    </div>
+
+                    <div class="box_project">
+
+                        <h1>Concept Art</h1>
+
+                        <div class="slidershow">
+                            <div class="prev">
+                                <a onclick="plusSlides(-1,2)">&#10094;</a>
+                            </div>
+    
+                            <div class="slides-container">
+                                <div class="slide_art">
+                                    <img src="img/Petal_lizard_01.png" alt="final_version">
+                                </div>
+                                <div class="slide_art">
+                                    <img src="img/Petal_lizard_02.png" alt="idea_version">
+                                </div>
+                            </div>
+    
+                            <div class="next">
+                                <a onclick="plusSlides(1,2)">&#10095;</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="box_project">
+                        <h1>3D Models</h1>
+                        <video src="img/Deepshark_3DModel_Sample.mp4" width="90%" controls></video>
+                        <p></p>
+                    </div>
+
+                </div>
+                <hr>
+
+                <div class="about">
+                    <h1>Contact</h1>
+                    <p> The contact section isn't ready at the moment but feel free to contact me via these links or
+                        Emails</p>
+                    <p>Email : <a href="mailto:peerawich.dinp@gmail.com">peerawich.dinp@gmail.com</a></p>
+                </div>
+
+            </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script>
+        let slideIndex = [1, 1, 1];
+        let slideId = ["slide_dmi", "slide_cd", "slide_art"]
+        showSlides(1, 0);
+        showSlides(1, 1);
+        showSlides(1, 2);
+
+        function plusSlides(n, no) {
+            showSlides(slideIndex[no] += n, no);
+        }
+
+        function showSlides(n, no) {
+            let i;
+            let x = document.getElementsByClassName(slideId[no]);
+            console.log( slideId[no] + x.length);
+            if (n > x.length) { slideIndex[no] = 1 }
+            if (n < 1) { slideIndex[no] = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex[no] - 1].style.display = "block";
+        }
+    </script>
+
+</body>
+
 </html>
